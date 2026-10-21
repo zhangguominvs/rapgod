@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Pribadi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Vincent Suanardy</h1>
+      <p><em>Mahasiswa Sistem Informasi</em></p>
+      <hr />
+    </header>
+
+    <!-- Foto Profil -->
+    <img src="download.jpeg" alt="Foto Profil Vincent" />
+
+    <!-- Tentang Saya -->
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p>
+        Selamat datang di situs portofolio saya. Saya adalah seorang mahasiswa
+        Sistem Informasi semester 3 di Kalbis University dengan fokus peminatan
+        di bidang Data Analyst.
+      </p>
+    </section>
+
+    <!-- Riwayat Pendidikan -->
+    <section id="education">
+      <h2>Riwayat Pendidikan</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tahun</th>
+            <th>Tingkat</th>
+            <th>Sekolah/Perguruan Tinggi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2013 - 2019</td>
+            <td>SD</td>
+            <td>SD TRI RATNA</td>
+          </tr>
+          <tr>
+            <td>2019 - 2022</td>
+            <td>SMP</td>
+            <td>SMP TRI RATNA</td>
+          </tr>
+          <tr>
+            <td>2022 - 2025</td>
+            <td>SMA</td>
+            <td>SMA TRI RATNA</td>
+          </tr>
+          <tr>
+            <td>2025 - Sekarang</td>
+            <td>Perguruan Tinggi</td>
+            <td>Kalbis University</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Keahlian -->
+    <section id="skills">
+      <h2>Keahlian / Skills</h2>
+      <div class="skill-buttons">
+        <button>Web Development</button>
+        <button>UI/UX Design</button>
+        <button>Mobile Programming</button>
+      </div>
+
+      <!-- Pie Chart -->
+      <div class="pie-chart"></div>
+
+      <!-- Legend -->
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-color" style="background: #4a90e2"></div>
+          🎨 UI/UX Design (30%)
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background: #50e3c2"></div>
+          💻 Web Development (50%)
+        </div>
+        <div class="legend-item">
+          <div class="legend-color" style="background: #f5a623"></div>
+          📱 Mobile Programming (20%)
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+      <h2>Kontak Saya</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Medsos</th>
+            <th>Alamat/No HP</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>WA</td>
+            <td><a href="tel:+6282125993883">+62 821 2599 3883</a></td>
+          </tr>
+          <tr>
+            <td>Instagram</td>
+            <td>
+              <a href="https://instagram.com/vincent.suanardy" target="_blank"
+                >vincent.suanardy</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Gmail</td>
+            <td>
+              <a href="mailto:vincent050107@gmail.com"
+                >vincent050107@gmail.com</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Form kontak -->
+      <form id="contactForm">
+        <h3>Kirim Pesan</h3>
+        <input type="text" id="name" placeholder="Nama" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <textarea id="message" placeholder="Pesan" required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <hr />
+      <p>© 2026 Vincent Suanardy. Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
